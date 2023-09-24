@@ -1,0 +1,14 @@
+function matchFinder(string1, string2 ) {
+      let massage = 'this is not a staring, place try to staring number ';
+      if(typeof string1 !== 'string' && typeof string2 !== 'string' ){
+            return massage;
+      }
+      else{
+      const first = string1.includes(string2);
+      return  first;
+      }
+}
+
+const allMatch = matchFinder('shakil', 'm')
+
+console.log(allMatch);
